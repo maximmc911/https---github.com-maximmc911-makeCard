@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cointeiner{
+    margin-top: 50px;
+    width: 1440px;
+    width: 100%;
+    padding: 50px;
+
+}
+.cards{ 
+    gap: 30px;
+    display: flex;
+    align-items: center;
+   justify-content: space-around;
+   flex-wrap: wrap;
+    
+    
+}
+.card{
+    width: 205px;
+    height: 200px;
+    border: 3px blueviolet  solid;
+    border-radius: 1px;
+    -webkit-box-shadow: 18px -22px 8px 0px rgba(34, 60, 80, 0.16);
+    -moz-box-shadow: 18px -22px 8px 0px rgba(34, 60, 80, 0.16);
+    box-shadow: 18px -22px 8px 0px rgba(34, 60, 80, 0.16);
+    background-color: rgb(228, 216, 238);
+}
+img{
+    width: 200px;
+    height: 100px;
+}
+.card_name{
+    margin-top: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    color: blue;
+    text-align: center;
+}
+.price{
+    font-family:Verdana, Geneva, Tahoma, cursive;
+    font-size: medium;
+    font-weight: 500;
+    font-style: italic;
+    color: blueviolet;
+}
+.Sales{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, cursive;
+    text-align: center;
+    margin-top: 50px;
+}
